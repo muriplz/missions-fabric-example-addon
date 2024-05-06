@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "votemission",
+  "version": "${version}",
+  "name": "Vote Mission",
+  "description": "Create: Missions addon that adds a Voting mission",
+  "authors": [
+    "MuriPlz"
+  ],
+  "contact": {
+    "sources": "https://github.com/Kryeit/VoteMission"
+  },
+  "license": "MIT",
+  "icon": "assets/votemission/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "com.example.votemission.Main"
+    ]
+  },
+  "mixins": [
+    "votemission.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "missions": "*",
+    "votifier": "*"
+  }
+}
