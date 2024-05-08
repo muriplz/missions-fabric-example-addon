@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 import java.util.UUID;
 
 public class ExampleMission implements MissionType {
-	private static final Identifier IDENTIFIER = Missions.asResource("votes");
+	private static final Identifier IDENTIFIER = Missions.asResource("messages");
 
 	@Override
 	public Text description() {
